@@ -1,7 +1,6 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import brandIcon from "../assets/layer-650@3x.png";
-import footerImg from "../assets/16.png";
 import { BsFacebook, BsTwitter, BsTelegram, BsInstagram } from "react-icons/bs";
 const Footer = () => {
   return (
@@ -21,14 +20,15 @@ const Footer = () => {
             <Col className="footer-left-col">EVENTS</Col>
             <Col className="footer-left-col">FAQ's</Col>
           </Row>
-          <Row className="footer-left-row2">
-            <div>C 2020 All rights reserved</div>{" "}
-          </Row>
         </Col>
         <Col>
           <div className="footer-middle">
             <div>
-              <img src={footerImg} style={{ width: "10rem" }} alt="" />
+              <img
+                src="https://cdn.pixabay.com/photo/2017/03/21/21/50/medal-2163457_960_720.png"
+                style={{ width: "9rem" }}
+                alt=""
+              />
             </div>
           </div>
         </Col>
